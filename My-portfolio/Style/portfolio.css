@@ -18,6 +18,23 @@ body {
 
 }
 
+.section-tittle {
+    text-align: center;
+    color: #181818;
+    font-size: 35px;
+
+    font-weight: 700;
+
+}
+
+.section-dis {
+    text-align: center;
+    color: #757575;
+    font-size: 18px;
+
+
+}
+
 /* nav related styles */
 nav {
     display: flex;
@@ -55,14 +72,56 @@ nav a {
 
 .header {
     background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
 }
-.pp{
+
+.pp {
     width: 500px;
     height: 600px;
+}
+
+.banner-hi {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-name {
+    font-size: 85px;
+    margin-top: 5px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner-dis {
+    font-size: 18px;
+    color: #757575;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+/* main section styles */
+
+
+/* about section styles */
+.about {
+    padding: 135px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin:130px 0;
 }
